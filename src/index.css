@@ -1,0 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+body {
+  font-family: "Roboto Mono", monospace; /* Ensures fallback to monospace if Roboto Mono fails to load */
+  background-image: url("src/assets/wave-haikei.svg"); /* Proper path to the SVG file */
+  background-repeat: no-repeat; /* Prevents the background image from repeating */
+  background-size: cover; /* Covers the entire background, adjust as needed */
+  background-position: center; /* Centers the background image in the body */
+  box-sizing: border-box;
+}
